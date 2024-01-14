@@ -66,7 +66,7 @@ const Camp = () => {
         </div>
         <div className="relative mx-5 sm:mx-auto flex flex-col gap-6 max-h-[400px]  max-w-[500px] btn_green lg:absolute lg:top-[60%]   lg:left-[700px] p-8 rounded-2xl">
           <h4 className="text-center xl-text-left text-3xl xl:text-4xl"><strong>Feeling Lost</strong> And Not Knowing The Way?</h4>
-          <p> Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure</p>
+          <p> Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That&apos;s why we are here for those of you who want to start an adventure</p>
 
         </div>
     </section>
