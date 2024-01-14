@@ -8,7 +8,7 @@ const Hero = () => {
       
       <div className='flex flex-col xl:flex-1'>
         <Image src={"camp.svg"} alt="" width={50} height={50}/>
-        <h1 className='text-6xl lg:text-8xl text-center xl:text-left font-bold pb-5'>Incredible Destinations</h1>
+        <h1 className='text-4xl md:text-6xl lg:text-8xl text-center xl:text-left font-bold pb-5'>Incredible Destinations</h1>
         <p className='text-gray-500 text-justify'>From the sun-kissed beaches of exotic islands to the bustling energy of iconic cities, our comprehensive travel experiences promise to satiate your curiosity, indulge your senses, and redefine the art of exploration.</p>
         <div className='flex justify-center xl:justify-start gap-2 p-5'>
           { Array(5).fill(1).map((_, index) => (
