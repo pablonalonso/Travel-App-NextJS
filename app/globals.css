@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --first: rgb(50, 71, 50);
+  --second: gray;
+  --third: rgb(67, 143, 67);
+  --fourth: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.btn_dark_green{
+  background-color: var(--first);
+  color: white;
+}
+
+.btn_green{
+  background-color: var(--third);
+  color: white;
+}
+
+.btn_white{
+  background-color: var(--fourth);
+  color: black;
+}
+
+.btn_transparent{
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
+}
+
+
+
+.img-1{
+  background-image: url('/miami.jpg'); /* Ajusta la ruta de la imagen según tu estructura de carpetas */
+  background-size: cover; /* Ajusta según sea necesario */
+  background-position: center; /* Ajusta según sea necesario */
+}
+
+.img-2{
+  background-image: url('/vancouver.jpg'); /* Ajusta la ruta de la imagen según tu estructura de carpetas */
+  background-size: cover; /* Ajusta según sea necesario */
+  background-position: center; /* Ajusta según sea necesario */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-image{
+  background-image: url('/hero.png');
+  background-position-x: 450px; 
+  background-position-y: -150px ;/* Ajusta la ruta de la imagen según tu estructura de carpetas */
+  background-size: 800px;
+  background-repeat: repeat-y;
+}
+
+.boat-image{
+  background-image: url("/boat.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.pattern-image{
+  background-image: url("/pattern.png");
+  background-size: cover;
+}
